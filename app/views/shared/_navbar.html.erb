@@ -1,0 +1,12 @@
+<header>
+  <nav>
+    <ul>
+      <li><%= link_to surveys_path do %>
+            ALL SURVEYS
+            <span class="badge"> <%= surveys_count %> </span>
+          <% end -%>
+      </li>
+      <li> <%= link_to 'NEW SURVEY', new_survey_path(type: 'quiz'), class: 'white' %> </li>
+    </ul>
+  </nav>
+</header>

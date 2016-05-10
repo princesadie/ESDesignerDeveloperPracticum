@@ -1,0 +1,16 @@
+<div class='field clearfix'>
+  <hr/>
+  <div class='row'>
+    <div class='form-group col-sm-4'>
+      <%= f.label :text, class: 'sr-only' %>
+      <%= f.text_field :text, placeholder: 'QUESTION', class: 'f-field' %>
+    </div>
+  </div>
+  <ol class='appendable'>
+    <%= f.fields_for :options do |builder| %>
+      <%= render 'option_fields', :f => builder %>
+    <% end -%>
+  </ol>
+  <%= link_to_add_field 'ADD ANSWER', f, :options %>
+  <%= link_to_remove_field 'REMOVE QUESTION', f %>
+</div>

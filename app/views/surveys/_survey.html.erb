@@ -1,0 +1,23 @@
+<a href="attempts/new?survey_id=<%=survey.id%>">
+  <div class="survey-box">
+    <div class="survey-box-top">
+      <div class="survey-box-circle">
+        <span class="survey-noq"><%= number_of_questions(survey) %></span>
+      </div>
+      <span class="survey-caption-question">QUESTIONS</span>
+      <span class="survey-name"><%= link_to survey.name.upcase, new_attempt_path(survey_id: survey.id), class: 'survey-name' %></span>
+    </div>
+    <div class="survey-content">
+      <p><%= "#{survey.description}" %></p>
+      <p><%= number_of_attempts(survey) %> PARTICIPANTS</p>
+      <div class="survey-action-buttons">
+        <%= link_to edit_survey_path(survey.id), class: 'button' do %>
+          <i class="fa fa-pencil-square-o"></i>
+        <% end %>
+        <%= link_to survey_path(survey.id), class: 'button', method: :delete, data: {confirm: "Are you sure you want to delete this survey?"} do %>
+          <i class="fa fa-trash-o"></i>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</a>
