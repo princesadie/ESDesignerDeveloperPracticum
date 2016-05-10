@@ -5,7 +5,8 @@ class AttemptsController < ApplicationController
   before_filter :load_survey, only: [:new, :create]
 
   def index
-    @surveys = Survey::Survey.active
+    # @surveys = Survey::Survey.active
+    @attempts = Survey::Attempt.all
   end
 
   def show
