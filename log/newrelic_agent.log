@@ -1,0 +1,359 @@
+# Logfile created on 2016-05-09 16:33:46 -0500 by logger.rb/53141
+[05/09/16 16:33:46 -0500 Princes-MacBook-Pro-2.local (83371)] INFO : Starting the New Relic agent in "development" environment.
+[05/09/16 16:33:46 -0500 Princes-MacBook-Pro-2.local (83371)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[05/09/16 16:33:46 -0500 Princes-MacBook-Pro-2.local (83371)] INFO : Reading configuration from config/newrelic.yml (/Users/princesadie/careers/survey-demo)
+[05/09/16 16:33:46 -0500 Princes-MacBook-Pro-2.local (83371)] INFO : New Relic Agent Developer Mode enabled.
+[05/09/16 16:33:46 -0500 Princes-MacBook-Pro-2.local (83371)] INFO : Environment: development
+[05/09/16 16:33:46 -0500 Princes-MacBook-Pro-2.local (83371)] INFO : Dispatcher: mongrel
+[05/09/16 16:33:46 -0500 Princes-MacBook-Pro-2.local (83371)] INFO : Application: My Application (Development)
+[05/09/16 16:33:46 -0500 Princes-MacBook-Pro-2.local (83371)] INFO : Installing ActiveRecord 4 instrumentation
+[05/09/16 16:33:46 -0500 Princes-MacBook-Pro-2.local (83371)] INFO : Installing Net instrumentation
+[05/09/16 16:33:46 -0500 Princes-MacBook-Pro-2.local (83371)] INFO : Installing deferred Rack instrumentation
+[05/09/16 16:33:46 -0500 Princes-MacBook-Pro-2.local (83371)] INFO : Installing Rack::Builder middleware instrumentation
+[05/09/16 16:33:46 -0500 Princes-MacBook-Pro-2.local (83371)] INFO : Installing Rails 3+ middleware instrumentation
+[05/09/16 16:33:46 -0500 Princes-MacBook-Pro-2.local (83371)] INFO : Installing Rails 4 Controller instrumentation
+[05/09/16 16:33:46 -0500 Princes-MacBook-Pro-2.local (83371)] INFO : Installing Rails 4 view instrumentation
+[05/09/16 16:33:46 -0500 Princes-MacBook-Pro-2.local (83371)] INFO : Installing Rails 4 Error instrumentation
+[05/09/16 16:33:46 -0500 Princes-MacBook-Pro-2.local (83371)] INFO : Finished instrumentation
+[05/09/16 16:33:46 -0500 Princes-MacBook-Pro-2.local (83371)] INFO : Doing deferred dependency-detection before Rack startup
+[05/09/16 16:33:49 -0500 Princes-MacBook-Pro-2.local (83371)] INFO : Reporting to: https://rpm.newrelic.com/accounts/996442/applications/6073657
+[05/09/16 17:25:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[05/09/16 17:25:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 17:25:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_transaction_event_data' in Agent Event Loop:
+[05/09/16 17:25:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 17:26:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[05/09/16 17:26:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 17:26:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_transaction_event_data' in Agent Event Loop:
+[05/09/16 17:26:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 17:27:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[05/09/16 17:27:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 17:27:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_transaction_event_data' in Agent Event Loop:
+[05/09/16 17:27:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 17:28:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[05/09/16 17:28:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 17:28:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_transaction_event_data' in Agent Event Loop:
+[05/09/16 17:28:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 17:29:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[05/09/16 17:29:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 17:29:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_transaction_event_data' in Agent Event Loop:
+[05/09/16 17:29:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 17:30:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[05/09/16 17:30:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 17:30:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_transaction_event_data' in Agent Event Loop:
+[05/09/16 17:30:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 17:31:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[05/09/16 17:31:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 17:31:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_transaction_event_data' in Agent Event Loop:
+[05/09/16 17:31:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 17:31:30 -0500 Princes-MacBook-Pro-2.local (83911)] INFO : Starting the New Relic agent in "development" environment.
+[05/09/16 17:31:30 -0500 Princes-MacBook-Pro-2.local (83911)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[05/09/16 17:31:30 -0500 Princes-MacBook-Pro-2.local (83911)] INFO : Reading configuration from config/newrelic.yml (/Users/princesadie/careers/survey-demo)
+[05/09/16 17:31:30 -0500 Princes-MacBook-Pro-2.local (83911)] INFO : New Relic Agent Developer Mode enabled.
+[05/09/16 17:31:30 -0500 Princes-MacBook-Pro-2.local (83911)] INFO : Environment: development
+[05/09/16 17:31:30 -0500 Princes-MacBook-Pro-2.local (83911)] INFO : No known dispatcher detected.
+[05/09/16 17:31:30 -0500 Princes-MacBook-Pro-2.local (83911)] INFO : Application: My Application (Development)
+[05/09/16 17:31:30 -0500 Princes-MacBook-Pro-2.local (83911)] INFO : Installing ActiveRecord 4 instrumentation
+[05/09/16 17:31:30 -0500 Princes-MacBook-Pro-2.local (83911)] INFO : Installing Net instrumentation
+[05/09/16 17:31:30 -0500 Princes-MacBook-Pro-2.local (83911)] INFO : Installing deferred Rack instrumentation
+[05/09/16 17:31:30 -0500 Princes-MacBook-Pro-2.local (83911)] INFO : Installing Rack::Builder middleware instrumentation
+[05/09/16 17:31:30 -0500 Princes-MacBook-Pro-2.local (83911)] INFO : Installing Rails 3+ middleware instrumentation
+[05/09/16 17:31:30 -0500 Princes-MacBook-Pro-2.local (83911)] INFO : Installing Rails 4 Controller instrumentation
+[05/09/16 17:31:30 -0500 Princes-MacBook-Pro-2.local (83911)] INFO : Installing Rails 4 view instrumentation
+[05/09/16 17:31:30 -0500 Princes-MacBook-Pro-2.local (83911)] INFO : Installing Rails 4 Error instrumentation
+[05/09/16 17:31:30 -0500 Princes-MacBook-Pro-2.local (83911)] INFO : Finished instrumentation
+[05/09/16 17:31:31 -0500 Princes-MacBook-Pro-2.local (83911)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[05/09/16 17:31:31 -0500 Princes-MacBook-Pro-2.local (83911)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector.newrelic.com:443: Failed to open TCP connection to collector.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 17:31:31 -0500 Princes-MacBook-Pro-2.local (83911)] INFO : Will re-attempt in 60 seconds
+[05/09/16 17:31:37 -0500 Princes-MacBook-Pro-2.local (83916)] INFO : Starting Agent shutdown
+[05/09/16 17:31:46 -0500 Princes-MacBook-Pro-2.local (83911)] INFO : Starting Agent shutdown
+[05/09/16 17:31:47 -0500 Princes-MacBook-Pro-2.local (83929)] INFO : Starting the New Relic agent in "development" environment.
+[05/09/16 17:31:47 -0500 Princes-MacBook-Pro-2.local (83929)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[05/09/16 17:31:47 -0500 Princes-MacBook-Pro-2.local (83929)] INFO : Reading configuration from config/newrelic.yml (/Users/princesadie/careers/survey-demo)
+[05/09/16 17:31:47 -0500 Princes-MacBook-Pro-2.local (83929)] INFO : New Relic Agent Developer Mode enabled.
+[05/09/16 17:31:47 -0500 Princes-MacBook-Pro-2.local (83929)] INFO : Environment: development
+[05/09/16 17:31:47 -0500 Princes-MacBook-Pro-2.local (83929)] INFO : No known dispatcher detected.
+[05/09/16 17:31:47 -0500 Princes-MacBook-Pro-2.local (83929)] INFO : Application: My Application (Development)
+[05/09/16 17:31:47 -0500 Princes-MacBook-Pro-2.local (83929)] INFO : Installing ActiveRecord 4 instrumentation
+[05/09/16 17:31:47 -0500 Princes-MacBook-Pro-2.local (83929)] INFO : Installing Net instrumentation
+[05/09/16 17:31:47 -0500 Princes-MacBook-Pro-2.local (83929)] INFO : Installing deferred Rack instrumentation
+[05/09/16 17:31:47 -0500 Princes-MacBook-Pro-2.local (83929)] INFO : Installing Rack::Builder middleware instrumentation
+[05/09/16 17:31:47 -0500 Princes-MacBook-Pro-2.local (83929)] INFO : Installing Rails 3+ middleware instrumentation
+[05/09/16 17:31:47 -0500 Princes-MacBook-Pro-2.local (83929)] INFO : Installing Rails 4 Controller instrumentation
+[05/09/16 17:31:47 -0500 Princes-MacBook-Pro-2.local (83929)] INFO : Installing Rails 4 view instrumentation
+[05/09/16 17:31:47 -0500 Princes-MacBook-Pro-2.local (83929)] INFO : Installing Rails 4 Error instrumentation
+[05/09/16 17:31:47 -0500 Princes-MacBook-Pro-2.local (83929)] INFO : Finished instrumentation
+[05/09/16 17:31:48 -0500 Princes-MacBook-Pro-2.local (83929)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[05/09/16 17:31:48 -0500 Princes-MacBook-Pro-2.local (83929)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector.newrelic.com:443: Failed to open TCP connection to collector.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 17:31:48 -0500 Princes-MacBook-Pro-2.local (83929)] INFO : Will re-attempt in 60 seconds
+[05/09/16 17:32:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[05/09/16 17:32:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 17:32:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_transaction_event_data' in Agent Event Loop:
+[05/09/16 17:32:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 17:32:48 -0500 Princes-MacBook-Pro-2.local (83929)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[05/09/16 17:32:48 -0500 Princes-MacBook-Pro-2.local (83929)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector.newrelic.com:443: Failed to open TCP connection to collector.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 17:32:48 -0500 Princes-MacBook-Pro-2.local (83929)] INFO : Will re-attempt in 120 seconds
+[05/09/16 17:33:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[05/09/16 17:33:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 17:33:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_transaction_event_data' in Agent Event Loop:
+[05/09/16 17:33:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 17:34:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[05/09/16 17:34:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 17:34:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_transaction_event_data' in Agent Event Loop:
+[05/09/16 17:34:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 17:34:48 -0500 Princes-MacBook-Pro-2.local (83929)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[05/09/16 17:34:48 -0500 Princes-MacBook-Pro-2.local (83929)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector.newrelic.com:443: Failed to open TCP connection to collector.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 17:34:48 -0500 Princes-MacBook-Pro-2.local (83929)] INFO : Will re-attempt in 180 seconds
+[05/09/16 17:35:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[05/09/16 17:35:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 17:35:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_transaction_event_data' in Agent Event Loop:
+[05/09/16 17:35:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 17:36:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[05/09/16 17:36:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 17:36:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_transaction_event_data' in Agent Event Loop:
+[05/09/16 17:36:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 17:37:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[05/09/16 17:37:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 17:37:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_transaction_event_data' in Agent Event Loop:
+[05/09/16 17:37:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 17:37:49 -0500 Princes-MacBook-Pro-2.local (83929)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[05/09/16 17:37:49 -0500 Princes-MacBook-Pro-2.local (83929)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector.newrelic.com:443: Failed to open TCP connection to collector.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 17:37:49 -0500 Princes-MacBook-Pro-2.local (83929)] INFO : Will re-attempt in 240 seconds
+[05/09/16 17:38:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[05/09/16 17:38:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 17:38:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_transaction_event_data' in Agent Event Loop:
+[05/09/16 17:38:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 17:39:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[05/09/16 17:39:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 17:39:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_transaction_event_data' in Agent Event Loop:
+[05/09/16 17:39:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 17:40:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[05/09/16 17:40:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 17:40:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_transaction_event_data' in Agent Event Loop:
+[05/09/16 17:40:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 17:41:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[05/09/16 17:41:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 17:41:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_transaction_event_data' in Agent Event Loop:
+[05/09/16 17:41:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 17:41:49 -0500 Princes-MacBook-Pro-2.local (83929)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[05/09/16 17:41:49 -0500 Princes-MacBook-Pro-2.local (83929)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector.newrelic.com:443: Failed to open TCP connection to collector.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 17:41:49 -0500 Princes-MacBook-Pro-2.local (83929)] INFO : Will re-attempt in 300 seconds
+[05/09/16 17:42:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[05/09/16 17:42:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 17:42:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_transaction_event_data' in Agent Event Loop:
+[05/09/16 17:42:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 17:43:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[05/09/16 17:43:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 17:43:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_transaction_event_data' in Agent Event Loop:
+[05/09/16 17:43:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 17:44:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[05/09/16 17:44:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 17:44:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_transaction_event_data' in Agent Event Loop:
+[05/09/16 17:44:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 17:45:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[05/09/16 17:45:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 17:45:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_transaction_event_data' in Agent Event Loop:
+[05/09/16 17:45:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 17:46:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[05/09/16 17:46:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 17:46:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_transaction_event_data' in Agent Event Loop:
+[05/09/16 17:46:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 17:46:50 -0500 Princes-MacBook-Pro-2.local (83929)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[05/09/16 17:46:50 -0500 Princes-MacBook-Pro-2.local (83929)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector.newrelic.com:443: Failed to open TCP connection to collector.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 17:46:50 -0500 Princes-MacBook-Pro-2.local (83929)] INFO : Will re-attempt in 360 seconds
+[05/09/16 17:47:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[05/09/16 17:47:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 17:47:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_transaction_event_data' in Agent Event Loop:
+[05/09/16 17:47:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 17:48:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[05/09/16 17:48:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 17:48:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_transaction_event_data' in Agent Event Loop:
+[05/09/16 17:48:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 17:49:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[05/09/16 17:49:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 17:49:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_transaction_event_data' in Agent Event Loop:
+[05/09/16 17:49:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 17:50:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[05/09/16 17:50:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 17:50:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_transaction_event_data' in Agent Event Loop:
+[05/09/16 17:50:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 17:51:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[05/09/16 17:51:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 17:51:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_transaction_event_data' in Agent Event Loop:
+[05/09/16 17:51:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 17:52:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[05/09/16 17:52:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 17:52:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_transaction_event_data' in Agent Event Loop:
+[05/09/16 17:52:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 17:52:50 -0500 Princes-MacBook-Pro-2.local (83929)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[05/09/16 17:52:50 -0500 Princes-MacBook-Pro-2.local (83929)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector.newrelic.com:443: Failed to open TCP connection to collector.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 17:52:50 -0500 Princes-MacBook-Pro-2.local (83929)] INFO : Will re-attempt in 420 seconds
+[05/09/16 17:53:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[05/09/16 17:53:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 17:53:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_transaction_event_data' in Agent Event Loop:
+[05/09/16 17:53:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 17:54:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[05/09/16 17:54:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 17:54:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_transaction_event_data' in Agent Event Loop:
+[05/09/16 17:54:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 17:55:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[05/09/16 17:55:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 17:55:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_transaction_event_data' in Agent Event Loop:
+[05/09/16 17:55:09 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 17:58:33 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[05/09/16 17:58:33 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 17:58:33 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_transaction_event_data' in Agent Event Loop:
+[05/09/16 17:58:33 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 18:02:17 -0500 Princes-MacBook-Pro-2.local (83929)] INFO : Reporting to: https://rpm.newrelic.com/accounts/996442/applications/6073657
+[05/09/16 18:07:46 -0500 Princes-MacBook-Pro-2.local (83371)] INFO : Unable to send error_data data, will try again later. Error: 
+[05/09/16 18:07:46 -0500 Princes-MacBook-Pro-2.local (83371)] INFO : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443: end of file reached
+[05/09/16 18:09:48 -0500 Princes-MacBook-Pro-2.local (83929)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[05/09/16 18:09:48 -0500 Princes-MacBook-Pro-2.local (83929)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 18:10:03 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_transaction_event_data' in Agent Event Loop:
+[05/09/16 18:10:03 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 18:10:18 -0500 Princes-MacBook-Pro-2.local (83929)] ERROR : 1 error(s) running task for event 'report_transaction_event_data' in Agent Event Loop:
+[05/09/16 18:10:18 -0500 Princes-MacBook-Pro-2.local (83929)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 18:10:33 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[05/09/16 18:10:33 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 18:10:48 -0500 Princes-MacBook-Pro-2.local (83929)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[05/09/16 18:10:48 -0500 Princes-MacBook-Pro-2.local (83929)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 18:11:03 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_transaction_event_data' in Agent Event Loop:
+[05/09/16 18:11:03 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 18:13:28 -0500 Princes-MacBook-Pro-2.local (83929)] ERROR : 1 error(s) running task for event 'report_transaction_event_data' in Agent Event Loop:
+[05/09/16 18:13:28 -0500 Princes-MacBook-Pro-2.local (83929)] ERROR : Errno::ECONNRESET: Connection reset by peer - SSL_connect
+[05/09/16 18:22:18 -0500 Princes-MacBook-Pro-2.local (83929)] WARN : Timed out opening connection to collector after 60.004116 seconds. If this problem persists, please see http://status.newrelic.com
+[05/09/16 18:22:18 -0500 Princes-MacBook-Pro-2.local (83929)] ERROR : 1 error(s) running task for event 'report_transaction_event_data' in Agent Event Loop:
+[05/09/16 18:22:18 -0500 Princes-MacBook-Pro-2.local (83929)] ERROR : Net::OpenTimeout: execution expired
+[05/09/16 18:22:33 -0500 Princes-MacBook-Pro-2.local (83371)] WARN : Timed out opening connection to collector after 60.003606 seconds. If this problem persists, please see http://status.newrelic.com
+[05/09/16 18:22:33 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_transaction_event_data' in Agent Event Loop:
+[05/09/16 18:22:33 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : Net::OpenTimeout: execution expired
+[05/09/16 18:22:48 -0500 Princes-MacBook-Pro-2.local (83929)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[05/09/16 18:22:48 -0500 Princes-MacBook-Pro-2.local (83929)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 18:23:04 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[05/09/16 18:23:04 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 18:23:18 -0500 Princes-MacBook-Pro-2.local (83929)] ERROR : 1 error(s) running task for event 'report_transaction_event_data' in Agent Event Loop:
+[05/09/16 18:23:18 -0500 Princes-MacBook-Pro-2.local (83929)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 18:23:18 -0500 Princes-MacBook-Pro-2.local (83929)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[05/09/16 18:23:18 -0500 Princes-MacBook-Pro-2.local (83929)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 18:23:33 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_transaction_event_data' in Agent Event Loop:
+[05/09/16 18:23:33 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 18:23:33 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[05/09/16 18:23:33 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 18:33:47 -0500 Princes-MacBook-Pro-2.local (83371)] INFO : Unable to send analytic_event_data data, will try again later. Error: 
+[05/09/16 18:33:47 -0500 Princes-MacBook-Pro-2.local (83371)] INFO : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443: end of file reached
+[05/09/16 18:36:18 -0500 Princes-MacBook-Pro-2.local (83929)] WARN : Timed out opening connection to collector after 60.001933 seconds. If this problem persists, please see http://status.newrelic.com
+[05/09/16 18:36:18 -0500 Princes-MacBook-Pro-2.local (83929)] ERROR : 1 error(s) running task for event 'report_transaction_event_data' in Agent Event Loop:
+[05/09/16 18:36:18 -0500 Princes-MacBook-Pro-2.local (83929)] ERROR : Net::OpenTimeout: execution expired
+[05/09/16 18:36:34 -0500 Princes-MacBook-Pro-2.local (83371)] WARN : Timed out opening connection to collector after 60.003609 seconds. If this problem persists, please see http://status.newrelic.com
+[05/09/16 18:36:34 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_transaction_event_data' in Agent Event Loop:
+[05/09/16 18:36:34 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : Net::OpenTimeout: execution expired
+[05/09/16 18:37:18 -0500 Princes-MacBook-Pro-2.local (83929)] WARN : Timed out opening connection to collector after 60.001915 seconds. If this problem persists, please see http://status.newrelic.com
+[05/09/16 18:37:18 -0500 Princes-MacBook-Pro-2.local (83929)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[05/09/16 18:37:18 -0500 Princes-MacBook-Pro-2.local (83929)] ERROR : Net::OpenTimeout: execution expired
+[05/09/16 18:37:34 -0500 Princes-MacBook-Pro-2.local (83371)] WARN : Timed out opening connection to collector after 60.002632 seconds. If this problem persists, please see http://status.newrelic.com
+[05/09/16 18:37:34 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[05/09/16 18:37:34 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : Net::OpenTimeout: execution expired
+[05/09/16 18:48:18 -0500 Princes-MacBook-Pro-2.local (83929)] WARN : Timed out opening connection to collector after 60.00223 seconds. If this problem persists, please see http://status.newrelic.com
+[05/09/16 18:48:18 -0500 Princes-MacBook-Pro-2.local (83929)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[05/09/16 18:48:18 -0500 Princes-MacBook-Pro-2.local (83929)] ERROR : Net::OpenTimeout: execution expired
+[05/09/16 18:48:34 -0500 Princes-MacBook-Pro-2.local (83371)] WARN : Timed out opening connection to collector after 60.004261 seconds. If this problem persists, please see http://status.newrelic.com
+[05/09/16 18:48:34 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[05/09/16 18:48:34 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : Net::OpenTimeout: execution expired
+[05/09/16 18:48:48 -0500 Princes-MacBook-Pro-2.local (83929)] ERROR : 1 error(s) running task for event 'report_transaction_event_data' in Agent Event Loop:
+[05/09/16 18:48:48 -0500 Princes-MacBook-Pro-2.local (83929)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 18:49:04 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_transaction_event_data' in Agent Event Loop:
+[05/09/16 18:49:04 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 18:49:48 -0500 Princes-MacBook-Pro-2.local (83929)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[05/09/16 18:49:48 -0500 Princes-MacBook-Pro-2.local (83929)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 18:50:04 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[05/09/16 18:50:04 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 18:50:18 -0500 Princes-MacBook-Pro-2.local (83929)] ERROR : 1 error(s) running task for event 'report_transaction_event_data' in Agent Event Loop:
+[05/09/16 18:50:18 -0500 Princes-MacBook-Pro-2.local (83929)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 18:50:34 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_transaction_event_data' in Agent Event Loop:
+[05/09/16 18:50:34 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 18:50:48 -0500 Princes-MacBook-Pro-2.local (83929)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[05/09/16 18:50:48 -0500 Princes-MacBook-Pro-2.local (83929)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 18:51:04 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[05/09/16 18:51:04 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 18:51:18 -0500 Princes-MacBook-Pro-2.local (83929)] ERROR : 1 error(s) running task for event 'report_transaction_event_data' in Agent Event Loop:
+[05/09/16 18:51:18 -0500 Princes-MacBook-Pro-2.local (83929)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 19:10:18 -0500 Princes-MacBook-Pro-2.local (83929)] WARN : Timed out opening connection to collector after 60.004888 seconds. If this problem persists, please see http://status.newrelic.com
+[05/09/16 19:10:18 -0500 Princes-MacBook-Pro-2.local (83929)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[05/09/16 19:10:18 -0500 Princes-MacBook-Pro-2.local (83929)] ERROR : Net::OpenTimeout: execution expired
+[05/09/16 19:10:34 -0500 Princes-MacBook-Pro-2.local (83371)] WARN : Timed out opening connection to collector after 60.002239 seconds. If this problem persists, please see http://status.newrelic.com
+[05/09/16 19:10:34 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[05/09/16 19:10:34 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : Net::OpenTimeout: execution expired
+[05/09/16 19:10:48 -0500 Princes-MacBook-Pro-2.local (83929)] ERROR : 1 error(s) running task for event 'report_transaction_event_data' in Agent Event Loop:
+[05/09/16 19:10:48 -0500 Princes-MacBook-Pro-2.local (83929)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 19:11:04 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_transaction_event_data' in Agent Event Loop:
+[05/09/16 19:11:04 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 19:13:54 -0500 Princes-MacBook-Pro-2.local (83371)] INFO : Unable to send metric_data data, will try again later. Error: 
+[05/09/16 19:13:54 -0500 Princes-MacBook-Pro-2.local (83371)] INFO : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-182.newrelic.com:443: end of file reached
+[05/09/16 19:31:18 -0500 Princes-MacBook-Pro-2.local (83929)] WARN : Timed out opening connection to collector after 60.002124 seconds. If this problem persists, please see http://status.newrelic.com
+[05/09/16 19:31:18 -0500 Princes-MacBook-Pro-2.local (83929)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[05/09/16 19:31:18 -0500 Princes-MacBook-Pro-2.local (83929)] ERROR : Net::OpenTimeout: execution expired
+[05/09/16 19:31:34 -0500 Princes-MacBook-Pro-2.local (83371)] WARN : Timed out opening connection to collector after 60.001965 seconds. If this problem persists, please see http://status.newrelic.com
+[05/09/16 19:31:34 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[05/09/16 19:31:34 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : Net::OpenTimeout: execution expired
+[05/09/16 19:42:48 -0500 Princes-MacBook-Pro-2.local (83929)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[05/09/16 19:42:48 -0500 Princes-MacBook-Pro-2.local (83929)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 19:43:04 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[05/09/16 19:43:04 -0500 Princes-MacBook-Pro-2.local (83371)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 19:52:27 -0500 Princes-MacBook-Pro-2.local (85657)] INFO : Starting the New Relic agent in "development" environment.
+[05/09/16 19:52:27 -0500 Princes-MacBook-Pro-2.local (85657)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[05/09/16 19:52:27 -0500 Princes-MacBook-Pro-2.local (85657)] INFO : Reading configuration from config/newrelic.yml (/Users/princesadie/careers/EverspringSurveyBuilder)
+[05/09/16 19:52:27 -0500 Princes-MacBook-Pro-2.local (85657)] INFO : New Relic Agent Developer Mode enabled.
+[05/09/16 19:52:27 -0500 Princes-MacBook-Pro-2.local (85657)] INFO : Environment: development
+[05/09/16 19:52:27 -0500 Princes-MacBook-Pro-2.local (85657)] INFO : Dispatcher: mongrel
+[05/09/16 19:52:27 -0500 Princes-MacBook-Pro-2.local (85657)] INFO : Application: My Application (Development)
+[05/09/16 19:52:27 -0500 Princes-MacBook-Pro-2.local (85657)] INFO : Installing ActiveRecord 4 instrumentation
+[05/09/16 19:52:27 -0500 Princes-MacBook-Pro-2.local (85657)] INFO : Installing Net instrumentation
+[05/09/16 19:52:27 -0500 Princes-MacBook-Pro-2.local (85657)] INFO : Installing deferred Rack instrumentation
+[05/09/16 19:52:27 -0500 Princes-MacBook-Pro-2.local (85657)] INFO : Installing Rack::Builder middleware instrumentation
+[05/09/16 19:52:27 -0500 Princes-MacBook-Pro-2.local (85657)] INFO : Installing Rails 3+ middleware instrumentation
+[05/09/16 19:52:27 -0500 Princes-MacBook-Pro-2.local (85657)] INFO : Installing Rails 4 Controller instrumentation
+[05/09/16 19:52:27 -0500 Princes-MacBook-Pro-2.local (85657)] INFO : Installing Rails 4 view instrumentation
+[05/09/16 19:52:27 -0500 Princes-MacBook-Pro-2.local (85657)] INFO : Installing Rails 4 Error instrumentation
+[05/09/16 19:52:27 -0500 Princes-MacBook-Pro-2.local (85657)] INFO : Finished instrumentation
+[05/09/16 19:52:27 -0500 Princes-MacBook-Pro-2.local (85657)] INFO : Reporting to: https://rpm.newrelic.com/accounts/996442/applications/6073657
+[05/09/16 19:52:27 -0500 Princes-MacBook-Pro-2.local (85657)] INFO : Doing deferred dependency-detection before Rack startup
+[05/09/16 20:31:59 -0500 Princes-MacBook-Pro-2.local (85657)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[05/09/16 20:31:59 -0500 Princes-MacBook-Pro-2.local (85657)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 20:31:59 -0500 Princes-MacBook-Pro-2.local (85657)] ERROR : 1 error(s) running task for event 'report_transaction_event_data' in Agent Event Loop:
+[05/09/16 20:31:59 -0500 Princes-MacBook-Pro-2.local (85657)] ERROR : SocketError: Failed to open TCP connection to collector-182.newrelic.com:443 (getaddrinfo: nodename nor servname provided, or not known)
+[05/09/16 22:42:59 -0500 Princes-MacBook-Pro-2.local (85657)] INFO : Starting Agent shutdown
+[05/09/16 22:43:09 -0500 Princes-MacBook-Pro-2.local (85791)] INFO : Starting the New Relic agent in "development" environment.
+[05/09/16 22:43:09 -0500 Princes-MacBook-Pro-2.local (85791)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[05/09/16 22:43:09 -0500 Princes-MacBook-Pro-2.local (85791)] INFO : Reading configuration from config/newrelic.yml (/Users/princesadie/careers/EverspringSurveyBuilder)
+[05/09/16 22:43:09 -0500 Princes-MacBook-Pro-2.local (85791)] INFO : New Relic Agent Developer Mode enabled.
+[05/09/16 22:43:09 -0500 Princes-MacBook-Pro-2.local (85791)] INFO : Environment: development
+[05/09/16 22:43:09 -0500 Princes-MacBook-Pro-2.local (85791)] INFO : Dispatcher: mongrel
+[05/09/16 22:43:09 -0500 Princes-MacBook-Pro-2.local (85791)] INFO : Application: My Application (Development)
+[05/09/16 22:43:09 -0500 Princes-MacBook-Pro-2.local (85791)] INFO : Installing ActiveRecord 4 instrumentation
+[05/09/16 22:43:09 -0500 Princes-MacBook-Pro-2.local (85791)] INFO : Installing Net instrumentation
+[05/09/16 22:43:09 -0500 Princes-MacBook-Pro-2.local (85791)] INFO : Installing deferred Rack instrumentation
+[05/09/16 22:43:09 -0500 Princes-MacBook-Pro-2.local (85791)] INFO : Installing Rack::Builder middleware instrumentation
+[05/09/16 22:43:09 -0500 Princes-MacBook-Pro-2.local (85791)] INFO : Installing Rails 3+ middleware instrumentation
+[05/09/16 22:43:09 -0500 Princes-MacBook-Pro-2.local (85791)] INFO : Installing Rails 4 Controller instrumentation
+[05/09/16 22:43:09 -0500 Princes-MacBook-Pro-2.local (85791)] INFO : Installing Rails 4 view instrumentation
+[05/09/16 22:43:09 -0500 Princes-MacBook-Pro-2.local (85791)] INFO : Installing Rails 4 Error instrumentation
+[05/09/16 22:43:09 -0500 Princes-MacBook-Pro-2.local (85791)] INFO : Finished instrumentation
+[05/09/16 22:43:10 -0500 Princes-MacBook-Pro-2.local (85791)] INFO : Doing deferred dependency-detection before Rack startup
+[05/09/16 22:43:10 -0500 Princes-MacBook-Pro-2.local (85791)] INFO : Reporting to: https://rpm.newrelic.com/accounts/996442/applications/6073657
+[05/10/16 06:11:31 -0500 Princes-MacBook-Pro-2.local (87539)] INFO : Starting the New Relic agent in "development" environment.
+[05/10/16 06:11:31 -0500 Princes-MacBook-Pro-2.local (87539)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[05/10/16 06:11:31 -0500 Princes-MacBook-Pro-2.local (87539)] INFO : Reading configuration from config/newrelic.yml (/Users/princesadie/careers/ESDesignerDeveloperPracticum)
+[05/10/16 06:11:31 -0500 Princes-MacBook-Pro-2.local (87539)] INFO : New Relic Agent Developer Mode enabled.
+[05/10/16 06:11:31 -0500 Princes-MacBook-Pro-2.local (87539)] INFO : Environment: development
+[05/10/16 06:11:31 -0500 Princes-MacBook-Pro-2.local (87539)] INFO : Dispatcher: mongrel
+[05/10/16 06:11:31 -0500 Princes-MacBook-Pro-2.local (87539)] INFO : Application: My Application (Development)
+[05/10/16 06:11:31 -0500 Princes-MacBook-Pro-2.local (87539)] INFO : Installing ActiveRecord 4 instrumentation
+[05/10/16 06:11:31 -0500 Princes-MacBook-Pro-2.local (87539)] INFO : Installing Net instrumentation
+[05/10/16 06:11:31 -0500 Princes-MacBook-Pro-2.local (87539)] INFO : Installing deferred Rack instrumentation
+[05/10/16 06:11:31 -0500 Princes-MacBook-Pro-2.local (87539)] INFO : Installing Rack::Builder middleware instrumentation
+[05/10/16 06:11:31 -0500 Princes-MacBook-Pro-2.local (87539)] INFO : Installing Rails 3+ middleware instrumentation
+[05/10/16 06:11:31 -0500 Princes-MacBook-Pro-2.local (87539)] INFO : Installing Rails 4 Controller instrumentation
+[05/10/16 06:11:31 -0500 Princes-MacBook-Pro-2.local (87539)] INFO : Installing Rails 4 view instrumentation
+[05/10/16 06:11:31 -0500 Princes-MacBook-Pro-2.local (87539)] INFO : Installing Rails 4 Error instrumentation
+[05/10/16 06:11:31 -0500 Princes-MacBook-Pro-2.local (87539)] INFO : Finished instrumentation
+[05/10/16 06:11:32 -0500 Princes-MacBook-Pro-2.local (87539)] INFO : Reporting to: https://rpm.newrelic.com/accounts/996442/applications/6073657
+[05/10/16 06:11:32 -0500 Princes-MacBook-Pro-2.local (87539)] INFO : Doing deferred dependency-detection before Rack startup
